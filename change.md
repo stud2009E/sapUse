@@ -15,6 +15,7 @@ Perform the following steps to create a property binding change:
 Procedure
 Open SAP Web IDE and choose the SAPUI5 Visual Editor for your app.
 Change the property to which you want to apply a property binding, for example, the Visible property of a button. This is an example of a change file:
+```json
 {
     "fileName": "id_1460988346969_256_propertyChange",
     "fileType": "change",
@@ -42,6 +43,7 @@ Change the property to which you want to apply a property binding, for example, 
         "user": ""
     }
 }
+```
 Make the following replacements in this change:
 
 Change the value of the changeType from propertyChange to propertyBindingChange.
@@ -49,6 +51,7 @@ Change the value of the changeType from propertyChange to propertyBindingChange.
 In the content, replace newValue with newBinding, and its value with your required binding, for example, {myProperty}. In this example, myProperty contains the values true or false to change the visibility.
 
 The result looks as follows:
+```json
 {
     "fileName": "id_1460988346969_256_propertyChange",
     "fileType": "change",
@@ -77,6 +80,7 @@ The result looks as follows:
         "user": ""
     }
 }
+```
 Note
 You can also use an expression binding. For example, if you want to inverse your property you can use newBinding: "{= !${myProperty}}".
 
