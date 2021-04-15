@@ -1,56 +1,56 @@
 
 
-- /UI2/CACHE
 ### Register service for UI2 cache use
-- /UI2/CACHE_DEL
+- /UI2/CACHE
 ### Delete cache entries
-- /UI2/CHIP
+- /UI2/CACHE_DEL
 ### Chip Registration
-- /UI2/CUST
+- /UI2/CHIP
 ### Customizing of UI Technologies
-- /UI2/FLC
+- /UI2/CUST
 ### Fiori Launchpad Checks
-- /UI2/FLIA
+- /UI2/FLC
 ### Fiori Launchpad Intent Analyis
-- /UI2/FLP
+- /UI2/FLIA
 ### SAP Fiori Launchpad
-- /UI2/FLP_CONTCHECK
+- /UI2/FLP
 ### Fiori Launchpad – Content Checks
-- /UI2/FLP_INTENTCHECK
+- /UI2/FLP_CONTCHECK
 ### Fiori Launchpad – Intent Checks
-- /UI2/FLPD_CONF
+- /UI2/FLP_INTENTCHECK
 ### Fiori Launchpad Designer (cross-client)
-- /UI2/FLPD_CUST
+- /UI2/FLPD_CONF
 ### Fiori Launchpad Designer (client-specific)
-- /UI2/GW_ACTIVATE
+- /UI2/FLPD_CUST
 ### Gateway – Activation
-- /UI2/GW_APPS_LOG
+- /UI2/GW_ACTIVATE
 ### Gateway – Application Log
-- /UI2/GW_ERR_LOG
+- /UI2/GW_APPS_LOG
 ### Gateway – Error Log
-- /UI2/GW_MAINT_SRV
+- /UI2/GW_ERR_LOG
 ### Gateway – Service Maintenance
-- /UI2/GW_SYS_ALIAS
+- /UI2/GW_MAINT_SRV
 ### Gateway – Manage SAP System Alias
-- /UI2/NAV
+- /UI2/GW_SYS_ALIAS
 ### Register navigation objects
-- /UI2/NAVPROV
+- /UI2/NAV
 ### Define navigation provider
-- /UI2/NWBC
+- /UI2/NAVPROV
 ### Start UI2 NWBC
-- /UI2/NWBC_CFG_CUST
+- /UI2/NWBC
 ### NWBC Configuration (Customer)
-- /UI2/NWBC_CFG_P_CUST
+- /UI2/NWBC_CFG_CUST
 ### NWBC Config: Define Parameter (Cust)
-- /UI2/NWBC_CFG_P_SAP
+- /UI2/NWBC_CFG_P_CUST
 ### NWBC Config: Define Parameter (SAP)
-- /UI2/NWBC_CFG_SAP
+- /UI2/NWBC_CFG_P_SAP
 ### NWBC Configuration (SAP)
-- /UI2/PERS_DEL
+- /UI2/NWBC_CFG_SAP
 ### Cleanup Personalisatation Service
-- /UI2/POWL
+- /UI2/PERS_DEL
 ### Register POWL for OData consumption
-- /UI2/SEMOBJ
+- /UI2/POWL
 ### Define Semantic Object – Customer
-- /UI2/SEMOBJ_SAP
+- /UI2/SEMOBJ
 ### Define Semantic Object – SAP
+- /UI2/SEMOBJ_SAP
