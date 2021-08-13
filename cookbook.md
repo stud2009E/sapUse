@@ -15,7 +15,7 @@
 
 
 ## odata service url params
-* `sap-ui-debug=true`  trace request
+* `sap-ds-debug=true`  trace request
 
 
 ## odata server annotations path
