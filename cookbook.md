@@ -6,10 +6,10 @@
 1. `gd-sapedit = 'X'`
 1. enjoy!
 
-
-## logging tcodes
+## error log tcodes
 * su53 - authority check errors
 * st22 - dump
+* sm21
 * slg1 - all error logs
 * /iwfnd/error_log - gateway errors
 
@@ -21,7 +21,4 @@
 ## odata server annotations path
 
 ### segw service name: `SERVICE_NAME_SRV`
-path: /sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='`SERVICE_NAME_ANNO_MDL`',Version='0001')/$value
-
-### Restful App. Progr. Model service name: `SERVICE_NAME`
-path: /sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='`SERVICE_NAME_VAN`',Version='0001')/$value
+path: /sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations
