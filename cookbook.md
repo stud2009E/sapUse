@@ -6,6 +6,14 @@
 1. `gd-sapedit = 'X'`
 1. enjoy!
 
+## authority
+* su21 - authority object
+* pfcg - roles
+
+## tables
+* se16 - table diplay
+* se14 - adjust table after strcural changes
+
 ## error log tcodes
 * su53 - authority check errors
 * st22 - dump
